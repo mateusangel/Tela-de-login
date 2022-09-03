@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+ background-image: url('Desert.jpg');
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin: 20px;   
+}
+.conteiner{
+width: 350px;
+background: #00000090;
+border-radius: 10% 0 ;
+box-shadow: 1px 2px 10px #000000, 2px 4px 20px #000000 ;
+padding: 50px 20px;
+}
+input{
+width: 300px;
+height: 30px;
+background: transparent;
+border: none;
+outline: none;
+border-bottom:1px solid wheat;
+
+
+
+}
